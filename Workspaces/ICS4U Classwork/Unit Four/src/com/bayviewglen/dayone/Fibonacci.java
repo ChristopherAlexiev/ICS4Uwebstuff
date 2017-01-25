@@ -3,7 +3,7 @@ package com.bayviewglen.dayone;
 public class Fibonacci {
 	static long[] solutions;
 	public static void main(String[] args) {
-		int n =25;
+		int n =25;	// test
 		long[] solutions = new long[n+1];
 		
 		for(int i=0; i<=n; i++){
