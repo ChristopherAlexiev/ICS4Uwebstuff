@@ -379,7 +379,7 @@ public class BinarySearchTree {
 		}
 	}
 
-	// This sets the parents of nodes of a newly balanced binary search tree
+	// This sets the parents of nodes of a newly balanced BST
 	private void setParents(BinaryNode nody) {
 		if (nody.getLeftChild() != null) {
 			nody.getLeftChild().setParent(nody);
